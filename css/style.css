@@ -1,3 +1,8 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
 .socialmedia-links{
     display: flex;
     justify-content: center;
@@ -13,6 +18,11 @@
     color: rgb(67, 70, 68);
 }
 
+.title-of-website{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
 .nav-container{
     display: flex;
     justify-content: center;
@@ -25,4 +35,87 @@
 }
 .nav-link:hover{
     color: rgb(67, 70, 68);
+}
+header{
+    background-color: rgba(127, 255, 212, 0.753);
+    position: fixed;
+    z-index: 2;
+}
+header .row{
+    flex-direction: column;
+}
+hr{
+    margin: 0;
+    height: 2px;
+}
+/* makes the main fill the whole page*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: aqua;
+    flex: 1;
+}
+/*  */
+footer{
+    text-align: center;
+    background-color: aquamarine;
+}
+.website-container{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.website-container li a{
+    color: black;
+    text-decoration: none;
+    transition: color ease .3s;
+}
+.website-container li a:hover{
+    color: gray;
+}
+.website-container li::marker{
+    content: none;
+}
+.website-container ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main h2,h3{
+    text-align: center;
+}
+.mushroom{
+    margin: 0;
+    padding: 0;
+   display: flex;
+   flex-direction: column;
+}
+.mushroom figcaption{
+    text-align: center;
+}
+.mushroom img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.mushroom a{
+    display: flex;
+    transition: transform ease .3s;
+}
+.mushroom a:hover{
+transform: scale(1.05);
 }
