@@ -24,6 +24,7 @@ html{
     align-self: center;
 }
 .nav-container{
+    margin-left: 4px;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -37,9 +38,10 @@ html{
     color: rgb(67, 70, 68);
 }
 header{
-    background-color: rgba(127, 255, 212, 0.753);
+    background-color: rgba(0, 0, 0, 0.116);
     position: fixed;
     z-index: 2;
+
 }
 header .row{
     flex-direction: column;
@@ -101,9 +103,11 @@ main h2,h3{
     padding: 0;
    display: flex;
    flex-direction: column;
+   margin-bottom: 10px;
 }
 .mushroom figcaption{
     text-align: center;
+
 }
 .mushroom img{
     width: 50%;
