@@ -63,13 +63,13 @@ body{
     flex-direction: column;
 }
 main{
-    background-color: aqua;
+    background-color: rgb(0, 255, 42);
     flex: 1;
 }
 /*  */
 footer{
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(0, 129, 22);
 }
 .website-container{
     height: 100%;
@@ -129,4 +129,38 @@ main h2,h3{
 }
 .mushroom a:hover{
 transform: scale(1.05);
+}
+.link-info{
+    color: black;
+}
+.card{
+    background-color:  rgb(0, 255, 42);
+    border: none;
+}
+.btn-primary{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.342);
+    border: none;
+    transition: background-color ease-in-out .5s;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.623);
+    border: none;
+}
+.guide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guide ul{
+    list-style-position: inside;
+}
+.guide ul li{ 
+    text-align: center;
+    width: auto;
+}
+.guide ul li::marker{
+    content: "🍄";
 }
