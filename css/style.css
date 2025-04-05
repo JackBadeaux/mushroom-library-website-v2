@@ -1,77 +1,92 @@
-html{
+html {
     padding: 0;
     margin: 0;
 }
 
-.socialmedia-links{
+.socialmedia-links {
     display: flex;
     justify-content: center;
     align-self: center;
     gap: 10px;
 }
-.socialmedia-links a{
+
+.socialmedia-links a {
     color: black;
     text-decoration: none;
     transition: color ease-in-out 0.3s;
 }
-.socialmedia-links a:hover{
+
+.socialmedia-links a:hover {
     color: rgb(67, 70, 68);
 }
 
-.title-of-website{
+.title-of-website {
     display: flex;
     justify-content: center;
     align-self: center;
 }
-.nav-container{
+
+.nav-container {
     margin-left: 4px;
     display: flex;
     justify-content: center;
     align-self: center;
 }
-.nav-link{
+
+.nav-link {
     color: black;
     text-decoration: none;
     transition: color ease-in 0.3s;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: rgb(67, 70, 68);
 }
-.mushroom-header{
+
+.mushroom-header {
     margin: 10px;
 }
-header{
+
+header {
     background-color: rgba(0, 0, 0, 0.116);
     position: fixed;
     z-index: 2;
 
 }
-header .row{
+
+header .row {
     flex-direction: column;
 }
-hr{
+
+hr {
     margin: 0;
     height: 2px;
 }
+
 /* makes the main fill the whole page*/
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
-main{
+
+main {
     background-color: rgb(0, 255, 42);
     flex: 1;
 }
+
 /*  */
-footer{
+footer {
     text-align: center;
     background-color: rgb(0, 129, 22);
 }
-.website-container{
+
+.website-container {
     height: 100%;
     text-align: center;
     display: flex;
@@ -79,18 +94,22 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.website-container li a{
+
+.website-container li a {
     color: black;
     text-decoration: none;
     transition: color ease .3s;
 }
-.website-container li a:hover{
+
+.website-container li a:hover {
     color: gray;
 }
-.website-container li::marker{
+
+.website-container li::marker {
     content: none;
 }
-.website-container ul{
+
+.website-container ul {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -98,65 +117,100 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
 }
-main h2,h3{
+
+main h2,
+h3 {
     text-align: center;
 }
-.mushroom{
+
+.mushroom {
     margin: 0;
     padding: 0;
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 10px;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
 }
-.mushroom figcaption{
+
+.mushroom figcaption {
     text-align: center;
     margin-right: 4px;
     margin-left: 4px;
 }
-.mushroom img{
+
+.mushroom img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
     margin-bottom: 10px;
 }
-.mushroom a{
+
+.mushroom a {
     transition: transform ease .3s;
     width: 50%;
 }
-.mushroom a:hover{
-transform: scale(1.05);
+
+.mushroom a:hover {
+    transform: scale(1.05);
 }
 
-.card{
-    background-color:  rgb(0, 255, 42);
+.card {
+    background-color: rgb(0, 255, 42);
     border: none;
 }
-.btn-primary{
+
+.btn-primary {
     color: black;
     background-color: rgba(0, 0, 0, 0.342);
     border: none;
     transition: background-color ease-in-out .5s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: black;
     background-color: rgba(0, 0, 0, 0.623);
     border: none;
 }
-.guide{
+
+.guide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.guide ul{
+
+.guide ul {
     list-style-position: inside;
 }
-.guide ul li{ 
+
+.guide ul li {
     text-align: center;
     width: auto;
 }
-.guide ul li::marker{
+
+.guide ul li::marker {
     content: "🍄";
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+    .roboto-text {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+    .roboto-heading {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
